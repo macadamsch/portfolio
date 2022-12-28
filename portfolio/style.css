@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* formatting for entire page */
+body {
+background: #ECF8F8;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box { /* puts content in a box with this class */
+  border: 2px solid #B2967D;
+  padding: 2%;
+  margin: 7%;
+}
+
+.round { /* image corners are rounded */
+  border-radius: 20px;
+}
+
+hr { /* formats horizontal line breakers */
+  border: 5px dashed #E6BEAE;
+}
+
+.center { /*centers whatever you use this class for */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* link formatting */
+a:link {color: black;
+       font-weight: bold;}
+a:visited {color: #E6BEAE;}
+a:hover {color: #B2967D;}
+a:active {color: #B2967D;
+          font-weight: bold;}
+
+/* header text formatting */
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #B2967D;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #E6BEAE;
+  font-size: 24px;
+}
